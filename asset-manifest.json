@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/joshhallan.github.io/static/css/main.9b65dafe.chunk.css",
+    "main.js": "/joshhallan.github.io/static/js/main.3c8769a1.chunk.js",
+    "main.js.map": "/joshhallan.github.io/static/js/main.3c8769a1.chunk.js.map",
+    "runtime-main.js": "/joshhallan.github.io/static/js/runtime-main.15e0a833.js",
+    "runtime-main.js.map": "/joshhallan.github.io/static/js/runtime-main.15e0a833.js.map",
+    "static/js/2.ba87a468.chunk.js": "/joshhallan.github.io/static/js/2.ba87a468.chunk.js",
+    "static/js/2.ba87a468.chunk.js.map": "/joshhallan.github.io/static/js/2.ba87a468.chunk.js.map",
+    "index.html": "/joshhallan.github.io/index.html",
+    "static/css/main.9b65dafe.chunk.css.map": "/joshhallan.github.io/static/css/main.9b65dafe.chunk.css.map",
+    "static/js/2.ba87a468.chunk.js.LICENSE.txt": "/joshhallan.github.io/static/js/2.ba87a468.chunk.js.LICENSE.txt",
+    "static/media/baby-wellbeing.1103eba8.jpg": "/joshhallan.github.io/static/media/baby-wellbeing.1103eba8.jpg",
+    "static/media/me.7f6c0f2f.jpg": "/joshhallan.github.io/static/media/me.7f6c0f2f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15e0a833.js",
+    "static/js/2.ba87a468.chunk.js",
+    "static/css/main.9b65dafe.chunk.css",
+    "static/js/main.3c8769a1.chunk.js"
+  ]
+}
