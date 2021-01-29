@@ -1,0 +1,81 @@
+$border: linear-gradient(45deg, #d30cb8, #6df1d8);
+$textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
+
+.card {
+  background-color: #5c2c6d;
+  border: 2px solid;
+  border-image-source: $border;
+  border-image-slice: 1;
+
+  &-title {
+    color: #ffffff;
+    text-shadow: $textShadow;
+  }
+
+  &-content {
+    p {
+      margin-bottom: 10px !important;
+    }
+    a {
+      color: #ffffff !important;
+      text-shadow: $textShadow;
+    }
+  }
+
+  &-image img.circle {
+    border-radius: 50%;
+  }
+
+  &-action a {
+    color: #ffffff !important;
+    text-shadow: $textShadow;
+  }
+
+  .tab-list {
+    padding: 0;
+  }
+}
+
+.collection {
+  border: 2px solid;
+  border-image-source: $border;
+  border-image-slice: 1;
+
+  .collection-item {
+    background-color: transparent;
+    border-bottom: 2px solid;
+    border-image-source: $border;
+    border-image-slice: 1;
+  }
+}
+
+.employment__item__title {
+  font-weight: bold;
+}
+
+.tabs {
+  background-color: #5c2c6d;
+
+  .tab {
+    a {
+      color: #ffffff;
+      text-shadow: $textShadow;
+      &.active,
+      &:hover {
+        color: #ffffff;
+        text-shadow: $textShadow;
+      }
+      &:focus.active {
+        background-color: rgba(255, 255, 255, 0.2) !important;
+      }
+    }
+  }
+
+  .indicator {
+    background: $border;
+  }
+}
+
+.tab-content {
+  margin: 7px 0;
+}
