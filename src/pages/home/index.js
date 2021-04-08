@@ -43,22 +43,22 @@ class Home extends Component {
           {/* Info tabs */}
           <div className="col s6">
             <div className="card">
-              <div class="col s12 tab-list">
-                <ul class="tabs tabs-fixed-width">
-                  <li class="tab">
+              <div className="col s12 tab-list">
+                <ul className="tabs tabs-fixed-width">
+                  <li className="tab">
                     <a href="#skills">Skills</a>
                   </li>
-                  <li class="tab">
+                  <li className="tab">
                     <a href="#education">Education</a>
                   </li>
-                  <li class="tab">
+                  <li className="tab">
                     <a href="#employment">Employment</a>
                   </li>
                 </ul>
               </div>
               <div className="card-content">
-                <div class="row">
-                  <div id="skills" class="col s12">
+                <div className="row">
+                  <div id="skills" className="col s12">
                     <div className="tab-content">
                       <p>
                         I am proficient in HTML, CSS, SCSS as well as JavaScript
@@ -95,7 +95,7 @@ class Home extends Component {
                       </ul>
                     </div>
                   </div>
-                  <div id="education" class="col s12">
+                  <div id="education" className="col s12">
                     <div className="tab-content">
                       <p>
                         I completed my degree from Teesside University in 2014 where I received a Second Honors Degree(2:1). Throughout my time at Teesside I studied a wide array of modules which have helped build my knowledge base of the computing world. In my final year I particularly enjoyed my software development module in which I learnt different methods of developing software and opened the doors to new programming languages to learn.
@@ -111,7 +111,7 @@ class Home extends Component {
                       <p>Business - E</p>
                     </div>
                   </div>
-                  <div id="employment" class="col s12">
+                  <div id="employment" className="col s12">
                     <ul className="collection">
                       <li className="collection-item">
                         <ul className="employment">
