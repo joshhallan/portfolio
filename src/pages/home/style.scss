@@ -1,5 +1,5 @@
 $border: linear-gradient(45deg, #d30cb8, #6df1d8);
-$textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
+$textShadow: 1px 1px 10px #ffffff, 1px 1px 10px #ffffff;
 $background: #a9a9a9;
 
 .card {
@@ -13,6 +13,7 @@ $background: #a9a9a9;
   }
 
   &-content {
+    color: #ffffff;
     background: $background;
 
     p {

@@ -71,28 +71,6 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col s12 m6">
-            <div className="card">
-              <div className="card-image">
-                <img
-                  className="materialboxed"
-                  src={findjosh}
-                  alt="screen shot of app"
-                />
-              </div>
-              <div className="card-content">
-                <span className="card-title">This site</span>
-                <p>
-                  I've built this site to showcase my work as well as my skills
-                  and experiences
-                </p>
-                <p>This is built using React, materializecss and hosted somewhere</p>
-                <div className="card-action">
-                  <a href="/">Visit</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     );

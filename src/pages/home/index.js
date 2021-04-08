@@ -131,7 +131,7 @@ class Home extends Component {
                             <span className="employment__item__title">
                               Role:
                             </span>{" "}
-                            Software engineer
+                            Senior software engineer / software engineer
                           </li>
                         </ul>
                       </li>
@@ -175,7 +175,7 @@ class Home extends Component {
                             <span className="employment__item__title">
                               Role:
                             </span>{" "}
-                            Lead developer
+                            Developer
                           </li>
                         </ul>
                       </li>

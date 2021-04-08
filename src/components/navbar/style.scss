@@ -1,8 +1,9 @@
-$textshadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
+$textshadow: 1px 1px 10px #ffffff, 1px 1px 10px #ffffff;
 $border: linear-gradient(45deg, #d30cb8, #6df1d8);
+$background: #000;
 
 nav {
-  background-color: #A9A9A9;
+  background-color: $background;
   border-bottom: 4px solid;
   border-image-source: $border;
   border-image-slice: 1;
@@ -14,7 +15,7 @@ nav {
 }
 
 .sidenav {
-  background-color: #A9A9A9;
+  background-color: $background;
   li {
     border-bottom: 2px solid;
     border-image-source: $border;
