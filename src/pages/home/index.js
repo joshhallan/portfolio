@@ -14,39 +14,26 @@ class Home extends Component {
       <div className="container">
         <div className="row">
           {/* Who am I? */}
-          <div className="col s12">
+          <div className="col s6">
             <div className="card">
               <div className="card-content">
+              <span className="card-title">Who am I?</span>
                 <div className="row">
-                  <div className="col s12 m3">
+                  <div className="col s12 m7">
                     <div className="card-image">
                       <img className="circle" src={image} alt="me" />
                     </div>
                   </div>
-                  <div className="col s12 m9">
-                    <span className="card-title">Who am I?</span>
+                  <div className="col s12">
                     <p>
                       Welcome, I'm Josh and I'm a 27 year old web developer from
                       Sunderland.
                     </p>
                     <p>
-                      I am very passionate about computers and computing as I
-                      have grown up using computers from a young age. Throughout
-                      university and my career I have learnt to program in
-                      multiple languages such as Java, JavaScript & JQuery, as
-                      well as HTML, CSS and SCSS. I am an extremely organized and
-                      decisive person. I can enjoy working within a group as I
-                      can call upon others for knowledge, however, I am highly
-                      self-motivated meaning I can also work individually. I
-                      always work to the best of my ability and I am very good
-                      at communicating with my colleagues.
+                      I am very passionate about computers and computing as I have grown up using computers from a young age. I have learnt to program in multiple languages such as Java, JavaScript, HTML and CSS/SCSS. I am eager to learn and expand my knowledge; I am always looking for new JavaScript frameworks to learn. I am an extremely organized and decisive person. I can enjoy working within a group as I can call upon others for knowledge and help, however, I am highly self-motived, so I am more than happy to tackle a problem alone.
                     </p>
                     <p>
-                      One major thing for me throughout my career is that I want
-                      to learn; I want to continuously learn new frameworks and
-                      new ways of doing things. I feel as though if I'm not
-                      learning a new framework/language or skill then I don't
-                      feel as though I'm achieving anything.
+                      One major thing for me throughout my career is that I want to learn; I want to continuously learn new frameworks and new ways of doing things. I feel as though, if I’m not learning something new, such as a framework or language, then I don’t feel as though I’m achieving anything.
                     </p>
                   </div>
                 </div>
@@ -54,7 +41,7 @@ class Home extends Component {
             </div>
           </div>
           {/* Info tabs */}
-          <div className="col s12">
+          <div className="col s6">
             <div className="card">
               <div class="col s12 tab-list">
                 <ul class="tabs tabs-fixed-width">
@@ -84,41 +71,34 @@ class Home extends Component {
                       </p>
                       <ul className="collection">
                         <li className="collection-item">
-                          <p>React, AngularJs, Angular 8</p>
+                          <p>HTML, CSS / SCSS, JavaScript (es6), jQuery</p>
                         </li>
                         <li className="collection-item">
-                          <p>HTML, CSS, SCSS, JavaScript, JQuery, ES6</p>
+                          <p>React, AngularJS, Angular </p>
                         </li>
                         <li className="collection-item">
-                          <p>Bootstrap, Foundation, Material design</p>
-                        </li>
-                        <li className="collection-item">
-                          <p>Leadership and teamwork</p>
+                          <p>Bootstrap, Foundation, Materialize</p>
                         </li>
                         <li className="collection-item">
                           <p>Git, SVN</p>
                         </li>
                         <li className="collection-item">
-                          <p>Unit, automated & manual testing</p>
+                          <p>Unit, automated and manual testing</p>
                         </li>
                         <li className="collection-item">
-                          <p>Accessability principles</p>
+                          <p>Accessibility principles</p>
                         </li>
-                        <li className="collection-item">Qualified SCRUM master</li>
+                        <li className="collection-item">
+                          <p>Qualified SCRUM master</p>
+                        </li>
+                        <li className="collection-item"><p>Node, axios, MongoDB</p></li>
                       </ul>
                     </div>
                   </div>
                   <div id="education" class="col s12">
                     <div className="tab-content">
                       <p>
-                        I finished studying Computing at Teesside University in
-                        2014, whilst I was there I received a Second Class
-                        Honours Degree (2:1). Throughout my time at Teesside
-                        University I studied a wide array of modules which have
-                        helped build my knowledge base of the computing world.
-                        In my final year I particularly enjoyed my software
-                        development module in which I learnt different methods
-                        of developing software such as using MVC and MVVM.
+                        I completed my degree from Teesside University in 2014 where I received a Second Honors Degree(2:1). Throughout my time at Teesside I studied a wide array of modules which have helped build my knowledge base of the computing world. In my final year I particularly enjoyed my software development module in which I learnt different methods of developing software and opened the doors to new programming languages to learn.
                       </p>
                       <span className="card-title">University</span>
                       <p>

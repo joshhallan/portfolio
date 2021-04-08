@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import image from "../../assets/images/baby-wellbeing.jpg";
+import wellbeing from "../../assets/images/baby-wellbeing.jpg";
+import findjosh from "../../assets/images/findjosh.jpg";
 import M from "materialize-css";
 
 class Work extends Component {
@@ -33,16 +34,16 @@ class Work extends Component {
             </div>
           </div>
           <div className="col s12 m6">
-            <div class="card">
-              <div class="card-image">
+            <div className="card">
+              <div className="card-image">
                 <img
                   className="materialboxed"
-                  src={image}
+                  src={wellbeing}
                   alt="screen shot of app"
                 />
               </div>
-              <div class="card-content">
-                <span class="card-title">Baby wellbeing</span>
+              <div className="card-content">
+                <span className="card-title">Baby wellbeing</span>
                 <p>
                   I created this web app a means of tracking my sons wellbeing.
                   My partner and I found that we were having trouble tracking
@@ -50,9 +51,9 @@ class Work extends Component {
                   create us a web app that can be used to track not only feeds,
                   but nappies, sleeping and medication.
                 </p>
-                <p>This is built using a MERN stack and hosted on heroku</p>
+                <p>This is built using a MERN & materializecss stack and hosted on heroku</p>
               </div>
-              <div class="card-action">
+              <div className="card-action">
                 <a
                   href="https://baby-wellbeing.herokuapp.com/"
                   target="_blank"
@@ -72,13 +73,21 @@ class Work extends Component {
           </div>
           <div className="col s12 m6">
             <div className="card">
+              <div className="card-image">
+                <img
+                  className="materialboxed"
+                  src={findjosh}
+                  alt="screen shot of app"
+                />
+              </div>
               <div className="card-content">
                 <span className="card-title">This site</span>
                 <p>
                   I've built this site to showcase my work as well as my skills
                   and experiences
                 </p>
-                <div class="card-action">
+                <p>This is built using React, materializecss and hosted somewhere</p>
+                <div className="card-action">
                   <a href="/">Visit</a>
                 </div>
               </div>

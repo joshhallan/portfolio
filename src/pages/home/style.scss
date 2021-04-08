@@ -1,9 +1,9 @@
 $border: linear-gradient(45deg, #d30cb8, #6df1d8);
 $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
+$background: #a9a9a9;
 
 .card {
-  background-color: #5c2c6d;
-  border: 2px solid;
+  border: 4px solid;
   border-image-source: $border;
   border-image-slice: 1;
 
@@ -13,6 +13,8 @@ $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
   }
 
   &-content {
+    background: $background;
+
     p {
       margin-bottom: 10px !important;
     }
@@ -26,9 +28,12 @@ $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
     border-radius: 50%;
   }
 
-  &-action a {
-    color: #ffffff !important;
-    text-shadow: $textShadow;
+  &-action {
+    background-color: $background !important;
+    a {
+      color: #ffffff !important;
+      text-shadow: $textShadow;
+    }
   }
 
   .tab-list {
@@ -37,7 +42,7 @@ $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
 }
 
 .collection {
-  border: 2px solid;
+  border: 4px solid;
   border-image-source: $border;
   border-image-slice: 1;
 
@@ -54,8 +59,7 @@ $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
 }
 
 .tabs {
-  background-color: #5c2c6d;
-
+  background-color: $background;
   .tab {
     a {
       color: #ffffff;
@@ -64,6 +68,7 @@ $textShadow: 1px 1px 10px #6df1d8, 1px 1px 10px #ffffff;
       &:hover {
         color: #ffffff;
         text-shadow: $textShadow;
+        background-color: rgba(255, 255, 255, 0.2) !important;
       }
       &:focus.active {
         background-color: rgba(255, 255, 255, 0.2) !important;

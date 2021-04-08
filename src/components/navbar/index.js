@@ -19,7 +19,7 @@ class Navbar extends Component {
               <div className="row">
                 <div className="col s12">
                   <a href="/" className="brand-logo left">
-                    findJosh.dev
+                    findJosh
                   </a>
                   <ul id="nav-mobile" className="right">
                     <li>
