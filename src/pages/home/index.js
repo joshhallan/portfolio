@@ -14,7 +14,7 @@ class Home extends Component {
       <div className="container">
         <div className="row">
           {/* Who am I? */}
-          <div className="col s6">
+          <div className="col s12 l6">
             <div className="card">
               <div className="card-content">
               <span className="card-title">Who am I?</span>
@@ -41,7 +41,7 @@ class Home extends Component {
             </div>
           </div>
           {/* Info tabs */}
-          <div className="col s6">
+          <div className="col s12 l6">
             <div className="card">
               <div className="col s12 tab-list">
                 <ul className="tabs tabs-fixed-width">
