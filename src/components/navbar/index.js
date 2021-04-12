@@ -13,33 +13,46 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <div className="navbar-fixed">
-          <nav>
-            <div className="nav-wrapper">
-              <div className="row">
-                <div className="col s12">
-                  <a href="/" className="brand-logo left">
-                    findJosh
-                  </a>
-                  <ul id="nav-mobile" className="right">
-                    <li>
-                      <a
-                        href="#openMenu"
-                        data-target="slide-out"
-                        className="sidenav-trigger show-on-large right"
-                      >
-                        <i className="fas fa-bars"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+        <nav>
+          <div class="nav-wrapper">
+            <a href="/" class="brand-logo">findJosh</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i className="fas fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <Link to="/work">
+                  My Work
+             </Link>
+              </li>
+              <li>
+                <a
+                  className=""
+                  href="https://github.com/joshhallan"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+            </a>
+              </li>
+              <li>
+                <a
+                  className=""
+                  href="https://www.linkedin.com/in/joshuaallan"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+            </a>
+              </li>
+              <li>
+                <a href="mailto:joshuaallan@live.co.uk?subject=Hi Josh&body=Talk to me">
+                  Contact
+            </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-        {/* Slide out nav */}
-        <ul className="sidenav" id="slide-out">
+        <ul class="sidenav" id="mobile-demo">
           <li>
             <Link to="/" className="sidenav-close">
               <i className="fas fa-home"></i>Home
