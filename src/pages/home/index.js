@@ -13,6 +13,7 @@ class Home extends Component {
     return (
       <div className="container">
         <div className="row">
+
           {/* Who am I? */}
           <div className="col s12 l6">
             <div className="card">
@@ -40,6 +41,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          
           {/* Info tabs */}
           <div className="col s12 l6">
             <div className="card">
