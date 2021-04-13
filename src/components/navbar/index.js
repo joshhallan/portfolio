@@ -45,7 +45,7 @@ class Navbar extends Component {
             </a>
                 </li>
                 <li>
-                  <a href="mailto:joshuaallan@live.co.uk?subject=Hi Josh&body=Talk to me">
+                  <a href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Talk to me">
                     Contact
             </a>
                 </li>
