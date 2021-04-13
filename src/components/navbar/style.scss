@@ -4,7 +4,7 @@ $background: #000;
 
 nav {
   background-color: $background;
-  border-bottom: 4px solid;
+  border-width: 0 0 4px 0;
   border-image-source: $border;
   border-image-slice: 1;
   & .brand-logo,
@@ -17,7 +17,7 @@ nav {
 .sidenav {
   background-color: $background;
   li {
-    border-bottom: 2px solid;
+    border-width: 0 0 2px 0;
     border-image-source: $border;
     border-image-slice: 1;
 
