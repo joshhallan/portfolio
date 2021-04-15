@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Modal from "../../components/modal"
 import M from "materialize-css";
 import image from "../../assets/images/me.jpg";
+import file from "../../assets/files/joshua-allan-cv.pdf";
 import "./style.scss";
 
 class Home extends Component {
@@ -33,97 +34,99 @@ class Home extends Component {
                 <p>
                   One major thing for me throughout my career is that I want to learn; I want to continuously learn new frameworks and new ways of doing things. I feel as though, if I’m not learning something new, such as a framework or language, then I don’t feel as though I’m achieving anything.
                     </p>
+                <p>As well as browsing the site you can also download a copy of my CV below.</p>
+                <a className="waves-effect waves-light btn cyan lighten-1" href={file} download>Download cv</a>
               </div>
             </div>
+            </div>
           </div>
-        </div>
 
-        <div className="info">
-          <div className="container">
-            <div className="row">
-              <div className="col s12">
-                <div className="col s12 tab-list">
-                  <ul className="tabs tabs-fixed-width">
-                    <li className="tab">
-                      <a href="#skills">Skills</a>
-                    </li>
-                    <li className="tab">
-                      <a href="#education">Education</a>
-                    </li>
-                    <li className="tab">
-                      <a href="#employment">Employment</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="card-content">
-                  <div className="row">
-                    {/* skills */}
-                    <div id="skills" className="col s12">
-                      <div className="col s12 l6">
-                        <p>
-                          I am proficient in HTML, CSS, SCSS as well as JavaScript
-                          and JQuery. I have also worked a lot with bootstrap,
-                          foundation and material design. Previously I have worked
-                          with React, AngularJs as well as Angular 8. I am always
-                          looking to upskill and learn new frameworks; in the
-                          future I am looking to work a lot more with React,
-                          Angular and Vue.
+          <div className="info">
+            <div className="container">
+              <div className="row">
+                <div className="col s12">
+                  <div className="col s12 tab-list">
+                    <ul className="tabs tabs-fixed-width">
+                      <li className="tab">
+                        <a href="#skills">Skills</a>
+                      </li>
+                      <li className="tab">
+                        <a href="#education">Education</a>
+                      </li>
+                      <li className="tab">
+                        <a href="#employment">Employment</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="card-content">
+                    <div className="row">
+                      {/* skills */}
+                      <div id="skills" className="col s12">
+                        <div className="col s12 l6">
+                          <p>
+                            I am proficient in HTML, CSS, SCSS as well as JavaScript
+                            and JQuery. I have also worked a lot with bootstrap,
+                            foundation and material design. Previously I have worked
+                            with React, AngularJs as well as Angular 8. I am always
+                            looking to upskill and learn new frameworks; in the
+                            future I am looking to work a lot more with React,
+                            Angular and Vue.
                       </p>
+                        </div>
+                        <div className="col s12 l6">
+                          <ul className="collection">
+                            <li className="collection-item">
+                              <p>HTML, CSS / SCSS, JavaScript (es6), jQuery</p>
+                            </li>
+                            <li className="collection-item">
+                              <p>React, AngularJS, Angular </p>
+                            </li>
+                            <li className="collection-item">
+                              <p>Bootstrap, Foundation, Materialize</p>
+                            </li>
+                            <li className="collection-item">
+                              <p>Git, SVN</p>
+                            </li>
+                            <li className="collection-item">
+                              <p>Unit, automated and manual testing</p>
+                            </li>
+                            <li className="collection-item">
+                              <p>Accessibility principles</p>
+                            </li>
+                            <li className="collection-item">
+                              <p>Qualified SCRUM master</p>
+                            </li>
+                            <li className="collection-item"><p>Node, axios, MongoDB</p></li>
+                          </ul>
+                        </div>
                       </div>
-                      <div className="col s12 l6">
+                      {/* education */}
+                      <div id="education" className="col s12">
+                        <div className="tab-content">
+                          <p>
+                            I completed my degree from Teesside University in 2014 where I received a Second Honors Degree(2:1). Throughout my time at Teesside I studied a wide array of modules which have helped build my knowledge base of the computing world. In my final year I particularly enjoyed my software development module in which I learnt different methods of developing software and opened the doors to new programming languages to learn.
+                      </p>
+                          <span className="card-title">University</span>
+                          <p>
+                            Teesside University (2011 - 2014) - 2:1 BSc Computing
+                      </p>
+                          <span className="card-title">College</span>
+                          <p>Bede College (2009 - 2011)</p>
+                          <p>Computing - D</p>
+                          <p>IT - D</p>
+                          <p>Business - E</p>
+                        </div>
+                      </div>
+                      {/* employment */}
+                      <div id="employment" className="col s12">
                         <ul className="collection">
                           <li className="collection-item">
-                            <p>HTML, CSS / SCSS, JavaScript (es6), jQuery</p>
-                          </li>
-                          <li className="collection-item">
-                            <p>React, AngularJS, Angular </p>
-                          </li>
-                          <li className="collection-item">
-                            <p>Bootstrap, Foundation, Materialize</p>
-                          </li>
-                          <li className="collection-item">
-                            <p>Git, SVN</p>
-                          </li>
-                          <li className="collection-item">
-                            <p>Unit, automated and manual testing</p>
-                          </li>
-                          <li className="collection-item">
-                            <p>Accessibility principles</p>
-                          </li>
-                          <li className="collection-item">
-                            <p>Qualified SCRUM master</p>
-                          </li>
-                          <li className="collection-item"><p>Node, axios, MongoDB</p></li>
-                        </ul>
-                      </div>
-                    </div>
-                    {/* education */}
-                    <div id="education" className="col s12">
-                      <div className="tab-content">
-                        <p>
-                          I completed my degree from Teesside University in 2014 where I received a Second Honors Degree(2:1). Throughout my time at Teesside I studied a wide array of modules which have helped build my knowledge base of the computing world. In my final year I particularly enjoyed my software development module in which I learnt different methods of developing software and opened the doors to new programming languages to learn.
-                      </p>
-                        <span className="card-title">University</span>
-                        <p>
-                          Teesside University (2011 - 2014) - 2:1 BSc Computing
-                      </p>
-                        <span className="card-title">College</span>
-                        <p>Bede College (2009 - 2011)</p>
-                        <p>Computing - D</p>
-                        <p>IT - D</p>
-                        <p>Business - E</p>
-                      </div>
-                    </div>
-                    {/* employment */}
-                    <div id="employment" className="col s12">
-                      <ul className="collection">
-                        <li className="collection-item">
-                          <div>
-                            <p>Employer: Leighton</p>
-                            <p>Dates worked: January 2017 - present</p>
-                            <p>Role: Senior software engineer / software engineer</p>
-                            <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#leightonModal">More info</a>
-                            <Modal id="leightonModal" title="Leighton" content="In my current position at Leighton, I have worked with
+                            <div>
+                              <p>Employer: Leighton</p>
+                              <p>Dates worked: January 2017 - present</p>
+                              <p>Role: Senior software engineer / software engineer</p>
+                              <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#leightonModal">More info</a>
+                              <Modal id="leightonModal" title="Leighton" content="In my current position at Leighton, I have worked with
                           different and new technologies. I have had many fantastic
                           opportunities to work with and learn new technologies such
                           as AngularJs, Angular 2/8 and React. I have enjoyed
@@ -135,52 +138,53 @@ class Home extends Component {
                           team. My most recent project has introduced me to using
                           javascript ES6, creating node build tasks and NPM as well
                           as a lot of SCSS." />
-                          </div>
-                        </li>
-                        <li className="collection-item">
-                          <div>
-                            <p>
-                              Employer: FNVi
+                            </div>
+                          </li>
+                          <li className="collection-item">
+                            <div>
+                              <p>
+                                Employer: FNVi
                           </p>
-                            <p>
-                              Dates worked: January 2015 - December 2016
+                              <p>
+                                Dates worked: January 2015 - December 2016
                           </p>
-                            <p>
-                              Role: Front end web developer
+                              <p>
+                                Role: Front end web developer
                           </p>
-                            <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#fnviModal">More info</a>
-                            <Modal id="fnviModal" title="FNVi" content="For two years worked as a front end web developer for
+                              <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#fnviModal">More info</a>
+                              <Modal id="fnviModal" title="FNVi" content="For two years worked as a front end web developer for
                           FNVi. At my time there I learnt a lot about best practices
                           and improved my web development skills tenfold. I learnt a
                           lot about design and how to make it best for the end user
                           to be able to use. While I was there I created 16 websites
                           and every client was pleased with what they received."/>
-                          </div>
-                        </li>
-                        <li className="collection-item">
-                          <p>Employer: GigSource</p>
-                          <p>Dates worked: September 2014 - January 2015</p>
-                          <p>Role: Developer</p>
-                          <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#gigsourceModal">More info</a>
-                          <Modal id="gigsourceModal" title="Gigsource" content="After the summer of 2014 I continued working on my own
+                            </div>
+                          </li>
+                          <li className="collection-item">
+                            <p>Employer: GigSource</p>
+                            <p>Dates worked: September 2014 - January 2015</p>
+                            <p>Role: Developer</p>
+                            <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#gigsourceModal">More info</a>
+                            <Modal id="gigsourceModal" title="Gigsource" content="After the summer of 2014 I continued working on my own
                           business under the digital city fellowship and started
                           learning about front end web development and how things
                           would look from an end user perspective. By doing this I
                           was able to make sure that the end user would have the
                           best possible experience when using the website."/>
-                        </li>
-                        <li className="collection-item">
-                          <p>Employer: Clickso</p>
-                          <p>Dates worked:June 2014 - September 2014</p>
-                          <p>Role: Intern</p>
-                          <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#clickscoModal">More info</a>
-                          <Modal id="clickscoModal" title="Clicksco" content="Over summer of 2014 I worked for Clicksco/ 23 Mile fund as
+                          </li>
+                          <li className="collection-item">
+                            <p>Employer: Clickso</p>
+                            <p>Dates worked:June 2014 - September 2014</p>
+                            <p>Role: Intern</p>
+                            <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#clickscoModal">More info</a>
+                            <Modal id="clickscoModal" title="Clicksco" content="Over summer of 2014 I worked for Clicksco/ 23 Mile fund as
                           an intern. We were split into teams and had to come up
                           with a marketable product. I developed the product which
                           was a website that incorporated a PHP database as well as
                           jQuery HTML and CSS."/>
-                        </li>
-                      </ul>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -188,7 +192,6 @@ class Home extends Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

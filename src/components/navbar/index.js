@@ -20,6 +20,9 @@ class Navbar extends Component {
               <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i className="fas fa-bars"></i></a>
               <ul class="right hide-on-med-and-down">
                 <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
                   <Link to="/work">
                     My Work
              </Link>
