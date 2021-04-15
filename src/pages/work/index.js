@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import wellbeing from "../../assets/images/baby-wellbeing.jpg";
-import findjosh from "../../assets/images/findjosh.jpg";
 import M from "materialize-css";
 
 class Work extends Component {
