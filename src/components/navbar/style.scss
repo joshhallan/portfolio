@@ -1,4 +1,5 @@
-$textshadow: 1px 1px 10px #ffffff, 1px 1px 10px #ffffff;
+$textShadow: 1px 1px 10px #ffffff, 1px 1px 10px #ffffff;
+$textShadowHover: 1px 1px 10px #ffffff, 1px 1px 10px #6df1d8;
 $border: linear-gradient(45deg, #d30cb8, #6df1d8);
 $background: #000;
 
@@ -8,11 +9,19 @@ nav {
   border-style: solid;
   border-image-source: $border;
   border-image-slice: 1;
+
   & .brand-logo,
   a {
     color: #fff;
-    text-shadow: $textshadow;
+    text-shadow: $textShadow;
+
+    &:hover {
+      transform: scale(1.1);
+      text-shadow: $textShadowHover;
+      background-color: transparent !important;
+    }
   }
+
 }
 
 .sidenav {
@@ -26,7 +35,7 @@ nav {
     a,
     a i {
       color: #fff;
-      text-shadow: $textshadow;
+      text-shadow: $textShadow;
     }
   }
 }

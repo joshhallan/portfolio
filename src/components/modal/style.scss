@@ -1,0 +1,8 @@
+$border: linear-gradient(45deg, #d30cb8, #6df1d8);
+
+.modal {
+  border-width: 2px;
+  border-style: solid;
+  border-image-source: $border;
+  border-image-slice: 1;
+}
