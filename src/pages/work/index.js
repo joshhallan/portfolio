@@ -13,30 +13,21 @@ class Work extends Component {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <div className="card">
-              <div className="card-content">
-                <span className="card-title">My work</span>
-                <p>
-                  Here is an example of some of the things that I have worked
-                  on. I will be adding to this as much as possible. You can also
-                  visit my{" "}
-                  <a
-                    href="https://github.com/joshhallan"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    github
-                  </a>{" "}
-                  for other examples of work.
+            <h2>My work</h2>
+            <p>
+              Here are examples of some of the things that I have worked
+              on. I will be adding to this as much as possible. You can also
+              visit my <a
+                href="https://github.com/joshhallan"
+                target="_blank"
+                rel="noreferrer"
+              >github</a> for other examples of work.
                 </p>
-              </div>
-            </div>
           </div>
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
                 <img
-                  className="materialboxed"
                   src={wellbeing}
                   alt="screen shot of app"
                 />
@@ -57,6 +48,7 @@ class Work extends Component {
                   href="https://baby-wellbeing.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
+                  className="light-blue-text darken-1"
                 >
                   visit
                 </a>
@@ -64,6 +56,7 @@ class Work extends Component {
                   href="https://github.com/joshhallan/BabyWellbeingPublic"
                   target="_blank"
                   rel="noreferrer"
+                  className="light-blue-text darken-1"
                 >
                   Git repo
                 </a>
