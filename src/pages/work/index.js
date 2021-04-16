@@ -21,7 +21,7 @@ class Work extends Component {
                 href="https://github.com/joshhallan"
                 target="_blank"
                 rel="noreferrer"
-              >github</a> for other examples of work.
+              >github</a> for other examples of my work.
                 </p>
           </div>
           <div className="col s12 m6">
@@ -30,6 +30,7 @@ class Work extends Component {
                 <img
                   src={wellbeing}
                   alt="screen shot of app"
+                  className="materialboxed"
                 />
               </div>
               <div className="card-content">

@@ -16,7 +16,7 @@ class Home extends Component {
       <div>
         <div className="intro">
           <div className="container">
-            <div className="row">
+            <div className="row valign-wrapper">
               <div className="col s12 l4">
                 <div className="intro__image-container">
                   <img className="circle" src={image} alt="me" />
@@ -35,7 +35,7 @@ class Home extends Component {
                   One major thing for me throughout my career is that I want to learn; I want to continuously learn new frameworks and new ways of doing things. I feel as though, if I’m not learning something new, such as a framework or language, then I don’t feel as though I’m achieving anything.
                     </p>
                 <p>As well as browsing the site you can also download a copy of my CV below.</p>
-                <a className="waves-effect waves-light btn cyan lighten-1" href={file} download>Download cv</a>
+                <a className="waves-effect waves-light btn cyan lighten-1" href={file} download>Download cv <i class="fas fa-file-download"></i></a>
               </div>
             </div>
             </div>
@@ -106,12 +106,9 @@ class Home extends Component {
                           <p>
                             I completed my degree from Teesside University in 2014 where I received a Second Honors Degree(2:1). Throughout my time at Teesside I studied a wide array of modules which have helped build my knowledge base of the computing world. In my final year I particularly enjoyed my software development module in which I learnt different methods of developing software and opened the doors to new programming languages to learn.
                       </p>
-                          <span className="card-title">University</span>
-                          <p>
-                            Teesside University (2011 - 2014) - 2:1 BSc Computing
-                      </p>
-                          <span className="card-title">College</span>
-                          <p>Bede College (2009 - 2011)</p>
+                          <span className="bold">University - Teesside University (2011 - 2014)</span>
+                          <p>BSc Computing - 2:1</p>
+                          <span className="bold">College - Bede College (2009 - 2011)</span>
                           <p>Computing - D</p>
                           <p>IT - D</p>
                           <p>Business - E</p>
@@ -122,9 +119,9 @@ class Home extends Component {
                         <ul className="collection">
                           <li className="collection-item">
                             <div>
-                              <p>Employer: Leighton</p>
-                              <p>Dates worked: January 2017 - present</p>
-                              <p>Role: Senior software engineer / software engineer</p>
+                              <p><span className="bold">Employer:</span> Leighton</p>
+                              <p><span className="bold">Dates worked:</span> January 2017 - present</p>
+                              <p><span className="bold">Role:</span> Senior software engineer / software engineer</p>
                               <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#leightonModal">More info</a>
                               <Modal id="leightonModal" title="Leighton" content="In my current position at Leighton, I have worked with
                           different and new technologies. I have had many fantastic
@@ -142,15 +139,9 @@ class Home extends Component {
                           </li>
                           <li className="collection-item">
                             <div>
-                              <p>
-                                Employer: FNVi
-                          </p>
-                              <p>
-                                Dates worked: January 2015 - December 2016
-                          </p>
-                              <p>
-                                Role: Front end web developer
-                          </p>
+                              <p><span className="bold">Employer:</span> FNVi</p>
+                              <p><span className="bold">Dates worked:</span> January 2015 - December 2016</p>
+                              <p><span className="bold">Role:</span> Front end web developer</p>
                               <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#fnviModal">More info</a>
                               <Modal id="fnviModal" title="FNVi" content="For two years worked as a front end web developer for
                           FNVi. At my time there I learnt a lot about best practices
@@ -161,9 +152,9 @@ class Home extends Component {
                             </div>
                           </li>
                           <li className="collection-item">
-                            <p>Employer: GigSource</p>
-                            <p>Dates worked: September 2014 - January 2015</p>
-                            <p>Role: Developer</p>
+                            <p><span className="bold">Employer:</span> GigSource</p>
+                            <p><span className="bold">Dates worked:</span> September 2014 - January 2015</p>
+                            <p><span className="bold">Role:</span> Developer</p>
                             <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#gigsourceModal">More info</a>
                             <Modal id="gigsourceModal" title="Gigsource" content="After the summer of 2014 I continued working on my own
                           business under the digital city fellowship and started
@@ -173,9 +164,9 @@ class Home extends Component {
                           best possible experience when using the website."/>
                           </li>
                           <li className="collection-item">
-                            <p>Employer: Clickso</p>
-                            <p>Dates worked:June 2014 - September 2014</p>
-                            <p>Role: Intern</p>
+                            <p><span className="bold">Employer:</span> Clickso</p>
+                            <p><span className="bold">Dates worked:</span> June 2014 - September 2014</p>
+                            <p><span className="bold">Role:</span> Intern</p>
                             <a class="waves-effect waves-light btn modal-trigger cyan lighten-1" href="#clickscoModal">More info</a>
                             <Modal id="clickscoModal" title="Clicksco" content="Over summer of 2014 I worked for Clicksco/ 23 Mile fund as
                           an intern. We were split into teams and had to come up

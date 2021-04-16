@@ -15,7 +15,7 @@ class Modal extends Component {
     return (
       <div id={this.props.id} class="modal">
         <div class="modal-content">
-          <h2>{this.props.title}</h2>
+          <h3>{this.props.title} experience</h3>
           {this.props.content}
         </div>
         <div class="modal-footer">
