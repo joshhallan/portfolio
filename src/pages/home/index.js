@@ -16,8 +16,8 @@ class Home extends Component {
       <div>
         <div className="intro">
           <div className="container">
-            <div className="row valign-wrapper">
-              <div className="col s12 l4">
+            <div className="row">
+              <div className="col s12 l4 ">
                 <div className="intro__image-container">
                   <img className="circle" src={image} alt="myself at work" />
                 </div>

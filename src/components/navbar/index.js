@@ -89,7 +89,7 @@ class Navbar extends Component {
             </a>
           </li>
           <li>
-            <a href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Talk to me">
+            <a target="_blank" rel="noreferrer" href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Thank you for getting in touch, please leave a contact number and an email address :)">
               <i className="fas fa-envelope"></i>Contact
             </a>
           </li>
