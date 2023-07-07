@@ -16,16 +16,22 @@ class Navbar extends Component {
         <nav>
           <div className="container">
             <div class="nav-wrapper">
-              <a href="/" class="brand-logo">findJosh</a>
-              <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i className="fas fa-bars"></i></a>
+              <a href="/" class="brand-logo">
+                findJosh
+              </a>
+              <a
+                href="#"
+                data-target="mobile-nav"
+                class="sidenav-trigger right"
+              >
+                <i className="fas fa-bars"></i>
+              </a>
               <ul class="right hide-on-med-and-down">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/work">
-                    My Work
-             </Link>
+                  <Link to="/work">My Work</Link>
                 </li>
                 <li>
                   <a
@@ -35,7 +41,7 @@ class Navbar extends Component {
                     rel="noreferrer"
                   >
                     GitHub
-            </a>
+                  </a>
                 </li>
                 <li>
                   <a
@@ -45,12 +51,12 @@ class Navbar extends Component {
                     rel="noreferrer"
                   >
                     LinkedIn
-            </a>
+                  </a>
                 </li>
                 <li>
-                  <a href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Talk to me">
+                  <a href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Thank you for getting in touch, please leave a contact number and an email address :)">
                     Contact
-            </a>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -89,7 +95,11 @@ class Navbar extends Component {
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer" href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Thank you for getting in touch, please leave a contact number and an email address :)">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:hello@findjosh.dev?subject=Hi Josh&body=Thank you for getting in touch, please leave a contact number and an email address :)"
+            >
               <i className="fas fa-envelope"></i>Contact
             </a>
           </li>
